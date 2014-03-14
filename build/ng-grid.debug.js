@@ -3429,7 +3429,7 @@ angular.module("ngGrid").run(["$templateCache", function($templateCache) {
         '<div ng-show="row.isExpanded" class="ngCell ngCellExpander expanded" style="width: 15px">' +
             '<a ng-click="collapseRow(row)"><i class="fa fa-chevron-down" style="float: left; padding-left: 3px; padding-top: 8px; font-size: 13px" ></i></a>' +
         '</div>' +
-        '<div ng-show="!row.isExpanded" class="ngCell ngellExpander collapsed">' +
+        '<div ng-show="!row.isExpanded" class="ngCell ngCellExpander collapsed">' +
             '<a ng-click="expandRow(row)"><i class="fa fa-chevron-right" style="float: left; padding-left: 3px; padding-top: 9px; font-size: 13px" ></i></a>' +
         '</div>' +
 
